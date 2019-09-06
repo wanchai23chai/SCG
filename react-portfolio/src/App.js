@@ -1,0 +1,33 @@
+import React, { Component } from 'react';
+import './css/bootstrap/bootstrap.css'
+import { Route } from 'react-router-dom'
+import {MainPage} from './pages/main'
+import {Landing} from './section/landingpage'
+import {Footer} from './section/footer'
+import {About} from './section/aboutme';
+import {Header} from './section/header';
+import {Skill} from './section/skill'
+import {QuestionPage} from './pages/question'
+import { Experience} from './section/experience'
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header/>
+        <div style={{margin:'15vh 0', height:'100%'}}>
+          <Route exact path="/" component={MainPage} />
+          <Route path="/it-me" component={Landing} />
+          <Route path="/about-me" component={About} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/skills" component={Skill} />
+          <Route path="/question" component={QuestionPage} />
+        
+        </div>
+         <Footer/>
+      </div>
+
+    );
+  }
+}
+
+export default App;

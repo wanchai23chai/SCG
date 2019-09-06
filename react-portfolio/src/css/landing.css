@@ -1,0 +1,41 @@
+.subTitle {
+  color: #e45447;
+  display:inline;
+  font-family: 'Pacifico', cursive
+}
+#linkedIn{
+  margin-top: 20px
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .titleName {
+    font-size: 3rem
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .titleName {
+    font-size: 5rem
+  }
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  #linkedIn{
+    display: none
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
+.titleName{
+  font-family: 'Pacifico', cursive;
+}

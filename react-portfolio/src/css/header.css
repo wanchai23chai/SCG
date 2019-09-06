@@ -1,0 +1,19 @@
+#logo {
+  border: 2px solid;
+  font-family: 'Pacifico', cursive;
+  padding: 5px;
+}
+#menu{
+  text-align: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: whitesmoke
+}
+#menu a {
+  color: whitesmoke
+}
+#menu li {
+  padding: 10px;
+}
+#header{
+  position:fixed;
+}

@@ -1,0 +1,31 @@
+[{
+  "skill": "html",
+  "percent": "95"
+}, {
+  "skill": "css",
+  "percent": "80"
+}, {
+  "skill": "nodejs",
+  "percent": "100"
+}, {
+  "skill": "python",
+  "percent": "90"
+}, {
+  "skill": "docker",
+  "percent": "70"
+}, {
+  "skill": "git",
+  "percent": "100"
+}, {
+  "skill": "elasticsearch",
+  "percent": "80"
+}, {
+  "skill": "kibana",
+  "percent": "80"
+}, {
+  "skill": "bootstrap",
+  "percent": "90"
+},{
+  "skill": "postgresql",
+  "percent": "60"
+}]

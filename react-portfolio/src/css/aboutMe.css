@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@media only screen and (max-width : 480px) {
+  .about-me-left{
+    display: none
+  } .about-item h5{
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width : 770px) {
+  .about-me-left{
+    display: inline
+    
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .section-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+ 
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 760px) {
+  .section-title {
+    font-size: 5rem;
+    text-align: center;
+  }
+ 
+ 
+}
+@media only screen and (max-width : 760px) {
+ .about-item h5{
+    font-size: 1rem;
+  }
+}
+.square_btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #ff7f7f;
+  transition: .4s;
+}
+
+.square_btn>span{
+  border-bottom: solid 2px #FFF;
+  border-top: solid 2px #FFF;
+}
+
+.square_btn:hover span {
+  padding: 0.1em 0;
+  text-decoration: none;
+  color: #FFF;
+  background: #ff7f7f;
+}
+.about-item h5{
+  padding-left: 20px;
+}
+.about-item {
+  margin-bottom: 20px;
+}
+.about-me-description{
+  font-family:'Acme', sans-serif;
+ 
+}

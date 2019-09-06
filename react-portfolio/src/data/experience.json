@@ -1,0 +1,30 @@
+[{
+    "position": "Backend Developer",
+    "description": "<ul><li>Implemented and consumed API for SCBlife app.</li><li>Implemented testing script for test API and apply CI/CD for automate deployment.</li><li>Implemented and monitored API for analyze service and fix problems by using ELK stack.</li></ul>",
+    "companyName": "Magicbox Asia Co.,",
+    "imgCompany": "https://cdn.tigthai.com/uploads/201405/21/03903180014006619388225_Magic-Box-Logo-600px.png",
+    "time": "January 2019 - Present"
+  },
+  {
+    "position": "Software Engineer (Contract)",
+    "description": "<ul><li>Implemented testing script.</li><li>Implemented web service, API , Dashboard for investigate performance testing.</li><li>ETL data from log and testing results into Elasticsearch.</li><li>Analysis and visualization data from Elasticsearch for investigation performance testing.</li>",
+    "companyName": "Thomson Reuters Co., Ltd",
+    "imgCompany": "https://storage.googleapis.com/news-photo/93285-ThomsonReuters.jpg",
+    "time": "June 2018 -  December 2018"
+  },
+  {
+    "position": "Software Engineer (Internship)",
+    "description": "<ul><li>Developed program and script to create report of metric with time series historical data from graphite and monitoring metric from grafana.</li><li>Developed web application (Dashboard) and web service for monitoring customer jobs.</li><li>Analyzed customer usage the system for find pattern of wrong usage.</li></ul>",
+    "companyName": "Thomson Reuters Co., Ltd",
+    "imgCompany": "https://storage.googleapis.com/news-photo/93285-ThomsonReuters.jpg",
+    "time": "June 2018 -  December 2018"
+  },
+  {
+    "position": "Programmer (Internship)",
+    "description": "<ul><li>Analyzed and Designed Algorithm.</li><li>Designed and Implemented for effective programs</li></ul>",
+    "companyName": "Jiangxi University of Science and Technology",
+    "imgCompany": "http://www.at0086.com/UpLoadImages/Ent/WebMessage/20100722042043012.jpg",
+    "time": "May 2017 - July 2017"
+  }
+  
+]

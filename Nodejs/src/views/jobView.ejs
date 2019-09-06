@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ./header %>
+</head>
+
+<body class="container">
+
+  <header>
+    <% include ./navBar %>
+  </header>
+
+  <main>
+        <div class="row">
+        <% jobData.forEach(function(item) { %>
+          <div class="col-3" style="margin-bottom: 50px">
+            <div class="card">
+              <a href=<%= item.link %> </a>
+              <img class="card-img-top" src=<%= item.company.logo %> alt="Card image cap" width:56px>
+              <div class="card-body">
+                <h5 class="card-title"><%= item.title %></h5>
+                <p class="card-text">
+                  <b>company : </b><%= item.company.name_th %>
+                </p>
+                <b>salary : <%= item.salary_min %> - <%= item.salary_max %> </b>
+                <b> <%= item.district %> , <%= item.province %></b>
+              </div>
+            </div>
+          </div>
+        <% }) %></div>
+    
+  </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,941 @@
+{
+  "html_attributions": [],
+  "next_page_token": "CqQCEgEAAJsNpDQewiS7sykuVTtqWANQhXW2wbRAn54P73CpVHqOCZqlB-hnWA317vj1oypHiPxkpuINgSecRO399vrC-dLukdFgPEwGBRujfdVVoNRkhSEvfNLNfRqdErjICfbXRE-UdIlU8-oeArtSfwHssPrZ8elMjxmLPRNMqNJ1Huf6u3ejTezlxg2SKe2LJfVIqGGB5nPtv0kNQAgkEnO7fPcCFXS9Bul8uwneCGSRebfUuv5v7dZ8z6XUadF6rNvOrNg19mQoE2U3chSaIhaCShq7iAg4gAlJQTlI4aOGYwF-GyM-zlWZPjrJ6ieQNuPatQmUuNF5bJomKFt_r5B6ni1U_pSgiN5tpKmsT_t_FVQY4hT7VnkU9cZcYSHHb5Zl1BIQSbVDs_Vaav9O1Ds-0oO8_BoU-IQbH1sdZxlTjitRGvrBGd0t2ls",
+  "results": [
+      {
+          "formatted_address": "162, 1 Pracha Rat Sai 2 Rd, Khwaeng Bang Sue, Khet Bang Sue, Krung Thep Maha Nakhon 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8052051,
+                  "lng": 100.5241228
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80654687989272,
+                      "lng": 100.5256689298927
+                  },
+                  "southwest": {
+                      "lat": 13.80384722010728,
+                      "lng": 100.5229692701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "376ef2cf6ae0e24b18cd184b9cd58643c68823f1",
+          "name": "MK Restaurant-Gateway Bangsue",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 1365,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/117840845425636014645/photos\">BIGSHOW LOWLAR</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAqJxMt7i49d6istmgt2ox0NiRbftm2c1-MNQxqXPCnoPoyIRPw1G_fyPT3y0YQzcqfM8zd5FyuehmUy0Qo-y8Lhy3yJHChDj6YfojJk2_85JZys2Inqk9ZJE6SePBFI0vEhAxWu827lH_l5jZc5t1mnOiGhQWs_M0c2nE5hmvqIz16qsg7sAefw",
+                  "width": 2048
+              }
+          ],
+          "place_id": "ChIJdcdrnIyb4jARidxLOO6zAZs",
+          "plus_code": {
+              "compound_code": "RG4F+3J Bangkok",
+              "global_code": "7P52RG4F+3J"
+          },
+          "price_level": 2,
+          "rating": 4.1,
+          "reference": "ChIJdcdrnIyb4jARidxLOO6zAZs",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 25
+      },
+      {
+          "formatted_address": "662 Rd, Techawanit, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.802348,
+                  "lng": 100.534942
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80373022989272,
+                      "lng": 100.5362260798927
+                  },
+                  "southwest": {
+                      "lat": 13.80103057010728,
+                      "lng": 100.5335264201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "9d1e0492e2153404590409c04b24465a6aad9f2f",
+          "name": "Kumamura Food.Bar",
+          "opening_hours": {
+              "open_now": true
+          },
+          "photos": [
+              {
+                  "height": 3000,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/100447619971491304233/photos\">Suthiluck Tangsutthimongkhon</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAp4ICHdZ30BA9oY-WSiYfLjOHc4C4sqe6rkR4dibO2r26-r3cVwBxaoP63qUXhzrlYythmNYOeBc5apehkQk6rgovWEBVJzjKgFgWaSs_M3jGxanhGoGbkVthvka8TrNQEhDoYHr928ob2O2j2zyUbQJAGhTs3VxMJVQvariU-P6SSXR4Nkyklg",
+                  "width": 4000
+              }
+          ],
+          "place_id": "ChIJdWfiWQuc4jARi2oLVe-QNGs",
+          "plus_code": {
+              "compound_code": "RG2M+WX Bangkok",
+              "global_code": "7P52RG2M+WX"
+          },
+          "rating": 4.2,
+          "reference": "ChIJdWfiWQuc4jARi2oLVe-QNGs",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 100
+      },
+      {
+          "formatted_address": "3, 393, 393/3 Pracha Rat Sai 2 Rd, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8064872,
+                  "lng": 100.5211238
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80780277989272,
+                      "lng": 100.5224728798927
+                  },
+                  "southwest": {
+                      "lat": 13.80510312010728,
+                      "lng": 100.5197732201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "3164ea94ea39c4e304419a2468df13730aea0500",
+          "name": "จั๊กหน่อย Jaknoi Restaurant",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 2240,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/114175437352757763172/photos\">Sorrasak Pattarapaisith</a>"
+                  ],
+                  "photo_reference": "CmRZAAAAOO855GBDHq171XfvBYfZyxcf3SC0H7rH531IZbAMzWmEUOLYujAQszZhF5NBoAV6kWF2UHl2_NXdZtG6iHX4sxYZjUBVTU0JErnYQVCgxX7MuomQuXH6OMktbk4yTjMIEhDJqy8srbEmUGnWK0tLDruFGhTJ7jAhd_-6EnP6zvXuTUKdiGJhnw",
+                  "width": 3968
+              }
+          ],
+          "place_id": "ChIJ-yZhqo2b4jARsYKjNsLniIw",
+          "plus_code": {
+              "compound_code": "RG4C+HC Bangkok",
+              "global_code": "7P52RG4C+HC"
+          },
+          "rating": 4.4,
+          "reference": "ChIJ-yZhqo2b4jARsYKjNsLniIw",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 61
+      },
+      {
+          "formatted_address": "829, Tesco Lotus Prachachuen, Pracharat Sai 2 Road, Bang Sue, Khet Bang Sue, Bangkok, 10800, 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8060988,
+                  "lng": 100.533928
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80747002989272,
+                      "lng": 100.5351816298927
+                  },
+                  "southwest": {
+                      "lat": 13.80477037010728,
+                      "lng": 100.5324819701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "5e424016d85f433a4a3b315f54cb3c1a8760877f",
+          "name": "MK Restaurants",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 3024,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/118161780729145724847/photos\">Suporn Pongnumkul</a>"
+                  ],
+                  "photo_reference": "CmRaAAAA8TrcgXLX5esdVHTiR9qNOUd5GlUztxMEtUdomtj0_2PN4T9j6Is6-_79uHiXkBUPIF-3Np0Wch3eOfNPFJ3mcNLsoQY2VuWqdWm4sCIErjva0JLRpCPfYEbEX91ZpvxTEhDu2NhgDkcb3QjmQBFLwoCpGhQTZCshhhj7T9ZgnyKyUNxfXrybHQ",
+                  "width": 4032
+              }
+          ],
+          "place_id": "ChIJ_1dwfXSc4jAREdfKFF0OsJQ",
+          "plus_code": {
+              "compound_code": "RG4M+CH Bangkok",
+              "global_code": "7P52RG4M+CH"
+          },
+          "price_level": 2,
+          "rating": 3.8,
+          "reference": "ChIJ_1dwfXSc4jAREdfKFF0OsJQ",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 15
+      },
+      {
+          "formatted_address": "888, Big C Wongsawang, Phibun Songkham Road, Bang Sue, Khet Bang Sue, Bangkok, 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8267455,
+                  "lng": 100.5283678
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.82818337989272,
+                      "lng": 100.5296380298927
+                  },
+                  "southwest": {
+                      "lat": 13.82548372010728,
+                      "lng": 100.5269383701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "dc93f3fb1658002bd69651540317dd99822c711b",
+          "name": "MK Restaurants",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 3366,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/104822309547054761050/photos\">Yingyot Srikamonkrid</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAyjNf2aOgvsfF87KSblAg_aDZUBcB8rH4lLALgXtP8pjT8VJt5PlCKXoHD8ppcb0Z7tZNlVvi8a6G0H83jO84thLjbYDG-vfV1_O5yPJcv6EX2vCSr9qaRHQSqURjMn2SEhDApAIpiJIiCxkNyfPy1pFsGhQI0Ojp_sS_1erZwrgSGtsyshuDXQ",
+                  "width": 5984
+              }
+          ],
+          "place_id": "ChIJ7SQB83-b4jAR66Em1dydPTA",
+          "plus_code": {
+              "compound_code": "RGGH+M8 Bangkok",
+              "global_code": "7P52RGGH+M8"
+          },
+          "price_level": 2,
+          "rating": 3.3,
+          "reference": "ChIJ7SQB83-b4jAR66Em1dydPTA",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 9
+      },
+      {
+          "formatted_address": "10, 4 Pracha Chuen Rd, Khwaeng Bang Sue, Khet Bang Sue, Krung Thep Maha Nakhon 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8078834,
+                  "lng": 100.5335665
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80922132989272,
+                      "lng": 100.5349746798927
+                  },
+                  "southwest": {
+                      "lat": 13.80652167010728,
+                      "lng": 100.5322750201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "a19769ee80c4b06c421d1db24dd22bfb7823f97e",
+          "name": "ร้านน้ำยาท่าจีน-Namyathajeen Thai Restaurant",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 1774,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/109661768091769413985/photos\">Amnaj Abhidej</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAEwIilXlk5JvzcuA9yFz0BO21jYwVIvj7B-EP1PipIBqf9p8J0lbA9wKW5S7mPvlbTMg5jm6XdDUHlEoLZmsuSjso3kT1G0m_I5raRd4v7tND9IueUGzx5pFTuFtqvgy1EhAbqu9goJm0qK5hld8hcsk6GhTS_6XGBA9yOtpVa60zXshdxlUs4Q",
+                  "width": 2364
+              }
+          ],
+          "place_id": "ChIJ6zIhCGud4jARnuKDi8l1Cx4",
+          "plus_code": {
+              "compound_code": "RG5M+5C Bangkok",
+              "global_code": "7P52RG5M+5C"
+          },
+          "rating": 3.9,
+          "reference": "ChIJ6zIhCGud4jARnuKDi8l1Cx4",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 14
+      },
+      {
+          "formatted_address": "Gateway Bangsue 162/1-2,168/10 Pracharaj Sai 2 Raod, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8056377,
+                  "lng": 100.5238886
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80702992989272,
+                      "lng": 100.5255146798927
+                  },
+                  "southwest": {
+                      "lat": 13.80433027010728,
+                      "lng": 100.5228150201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "9ae33b1866a8f6aa75c8767012811639703dd1cd",
+          "name": "The Pizza Company",
+          "photos": [
+              {
+                  "height": 3456,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/110372191698158794359/photos\">Rati Watanatada</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAIWHo4aACTmdDDWE8ux2BXuUNRjAMfum0yBcc0qtk8273P9DHgQkoX1QxJLIsj2-uF1_1icP05SgCkaNonsXW87Tw6mPLdHuBqoM5Iqpvts8efJ_JmIGFyZlWEHvwPQDSEhDTXGERGRcfulgDx16FrDIsGhSbc7RjfBju-mcrwhcVgY94-ekvwg",
+                  "width": 4608
+              }
+          ],
+          "place_id": "ChIJ_zIR4kWb4jARGqmUEOmn1c0",
+          "plus_code": {
+              "compound_code": "RG4F+7H Bangkok",
+              "global_code": "7P52RG4F+7H"
+          },
+          "price_level": 2,
+          "rating": 5,
+          "reference": "ChIJ_zIR4kWb4jARGqmUEOmn1c0",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 2
+      },
+      {
+          "formatted_address": "829, Tesco Lotus Prachachuen Pracha Rat Road, Soi 2, Wong Sawang, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.806355,
+                  "lng": 100.534204
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80782182989272,
+                      "lng": 100.5355847798927
+                  },
+                  "southwest": {
+                      "lat": 13.80512217010728,
+                      "lng": 100.5328851201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "f32bf57eef654d220fa0350f813f8c18a50c68ef",
+          "name": "สีฟ้า SEE FAH Restaurant Tesco Lotus Prachachuen",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 2448,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/108830346222562309294/photos\">สีฟ้า Seefah Restaurant สาขาโลตัสประชาชื่น</a>"
+                  ],
+                  "photo_reference": "CmRaAAAArGv0FM5B_GmrHsmOtiqG1J3HhtYFcG9n3JjeXNyQgKOP01VBoDM7EsP9_e8rAWPUxzCfZenyFFBzVhHoHQcv30hKAAuP1T1UdQSimkARXe8i-ndnJC2uva0GbNW4_EPEEhD0GA2N7JtcNo9kc3Jb2nsxGhR-YgGNdqh0EJMpjaFzQvCgUN73nA",
+                  "width": 3264
+              }
+          ],
+          "place_id": "ChIJDe_MYnSc4jARq-nMIgAY-f4",
+          "plus_code": {
+              "compound_code": "RG4M+GM Bangkok",
+              "global_code": "7P52RG4M+GM"
+          },
+          "price_level": 2,
+          "rating": 3.9,
+          "reference": "ChIJDe_MYnSc4jARq-nMIgAY-f4",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 26
+      },
+      {
+          "formatted_address": "9 11 ถนน เทอดดำริห์ Khwaeng Bang Sue, Khet Bang Sue, Krung Thep Maha Nakhon 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8020812,
+                  "lng": 100.5387946
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80340652989272,
+                      "lng": 100.5402081298927
+                  },
+                  "southwest": {
+                      "lat": 13.80070687010728,
+                      "lng": 100.5375084701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "72cfed271968a2f11b4d2101eb120a414675d252",
+          "name": "Bella Casa ร้านอาหารเบลล่า คาซ่า",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 3024,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/109111240858438466286/photos\">Mitree Prasanatikom</a>"
+                  ],
+                  "photo_reference": "CmRZAAAAe09nkAsAQZawEFTLHutkmX_dckO4JyOISuAg9mhrPkWdjBy8UP3ha5lt8frL0uWO6v4hmrl5w3xYaRt0fu1PtQl3XoQzK4h87UOaQrXFxq5fk52-U4YTp34vXRWztKWIEhAXC0ldTWyT87iX9_eJjQz1GhTzU0sLKlQMGz7Vuo_wTIBhQzHnzg",
+                  "width": 4032
+              }
+          ],
+          "place_id": "ChIJpQIYOw2c4jARAuLothgZn9Y",
+          "plus_code": {
+              "compound_code": "RG2Q+RG Bangkok",
+              "global_code": "7P52RG2Q+RG"
+          },
+          "price_level": 2,
+          "rating": 4.2,
+          "reference": "ChIJpQIYOw2c4jARAuLothgZn9Y",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 258
+      },
+      {
+          "formatted_address": "G floor,Foodcourt (Gateway Bangsue) ,Pracharaj2 Rd, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.806107,
+                  "lng": 100.5240377
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80758002989272,
+                      "lng": 100.5253876298927
+                  },
+                  "southwest": {
+                      "lat": 13.80488037010728,
+                      "lng": 100.5226879701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "9315e562c9e7572035eb895d0830eb327f1b3c54",
+          "name": "Naikun Pochana",
+          "opening_hours": {
+              "open_now": false
+          },
+          "place_id": "ChIJofLQfGOb4jARaNqWxKNEblM",
+          "plus_code": {
+              "compound_code": "RG4F+CJ Bangkok",
+              "global_code": "7P52RG4F+CJ"
+          },
+          "rating": 0,
+          "reference": "ChIJofLQfGOb4jARaNqWxKNEblM",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 0
+      },
+      {
+          "formatted_address": "520WONGSAWANG Rd.,, Bangsue,Bangkok, 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.820099,
+                  "lng": 100.5193694
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.82145767989272,
+                      "lng": 100.5207109298927
+                  },
+                  "southwest": {
+                      "lat": 13.81875802010728,
+                      "lng": 100.5180112701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "c33776435864eab89b6188df4073b53bc054f07e",
+          "name": "Suthon Soontrapa (Noensuk Agriculture Co.,Ltd.)",
+          "place_id": "ChIJM8RCu4Sb4jAR0p7EfxqGwII",
+          "plus_code": {
+              "compound_code": "RGC9+2P Bangkok",
+              "global_code": "7P52RGC9+2P"
+          },
+          "rating": 0,
+          "reference": "ChIJM8RCu4Sb4jAR0p7EfxqGwII",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 0
+      },
+      {
+          "formatted_address": "168 Gateway AT Bangsue ชั้น G 162/1-2 10 Pracha Rat Sai 2 Rd, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.805803,
+                  "lng": 100.5239678
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80742802989272,
+                      "lng": 100.5253178798927
+                  },
+                  "southwest": {
+                      "lat": 13.80472837010728,
+                      "lng": 100.5226182201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "142b2c8bf5d9f22dd5bf9b9e5533a29df4bbfb71",
+          "name": "Miss Mamon",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 618,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/107001800734594849485/photos\">A Google User</a>"
+                  ],
+                  "photo_reference": "CmRaAAAADPy23pluzsE9lY6WTRTUeM744WpGiSRIiKaUQYFWsSpXXd04j3kjIUTBA8_f5FQbFl2EF7OvDQe9HQNfYJ_AMdTU3xERGoPhsedHJVaYpUH82DlMp3I8Y4VVx2tPyq1WEhBo3465ahtPk5eM0Dm2PsC6GhTSJ_m4tFC1PGFxjjVTlbepToOpEg",
+                  "width": 1200
+              }
+          ],
+          "place_id": "ChIJTX6sLGeb4jARYxj4IV7hJwg",
+          "plus_code": {
+              "compound_code": "RG4F+8H Bangkok",
+              "global_code": "7P52RG4F+8H"
+          },
+          "rating": 4.8,
+          "reference": "ChIJTX6sLGeb4jARYxj4IV7hJwg",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 4
+      },
+      {
+          "formatted_address": "เลขที่ 139 อาคารโครงการ เดอะเรส แอเรีย ประชาชื่น ชั้น 1 ห้องเลขที่ A1-09/11, ซอยสายสิน แขวงวงสว่าง บางซื่อ กรุงเทพมหานคร 10800, วงสว่าง, บางซื่อ, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.842699,
+                  "lng": 100.533471
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.84378087989272,
+                      "lng": 100.5346149298927
+                  },
+                  "southwest": {
+                      "lat": 13.84108122010728,
+                      "lng": 100.5319152701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "17c12e6c002cdf227a370c6c1b4ea4db457a37c2",
+          "name": "Hong Bao Dim Sum House The Rest Area",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 1152,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/114229684381102407314/photos\">Hong Bao Dim Sum House The Rest Area</a>"
+                  ],
+                  "photo_reference": "CmRaAAAADqAcNP0Eqre3lSjejbozmxutbSDvT8Gm2ljs7_3o5nwiZoQ7ZN0Ff9lhj42hymP2iVKKKq11VoSkYQDvScpUptd0sshN0qjevCbxzaWM3gUtMfZFeD3urR5G2nW9i5gOEhBP0PuAjStBmixPJNBLNx7zGhQYzW3Xr-OaOukNDUZ_v-0rtlY9uw",
+                  "width": 2048
+              }
+          ],
+          "place_id": "ChIJs9l1JJyc4jARRVCEdUCrZnQ",
+          "plus_code": {
+              "compound_code": "RGVM+39 Bangkok",
+              "global_code": "7P52RGVM+39"
+          },
+          "rating": 3.8,
+          "reference": "ChIJs9l1JJyc4jARRVCEdUCrZnQ",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 8
+      },
+      {
+          "formatted_address": "367, 5 ถนน กรุงเทพ - นนทบุรี Khwaeng Bang Sue, Khet Bang Sue, Krung Thep Maha Nakhon 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8110418,
+                  "lng": 100.5312451
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.81238772989272,
+                      "lng": 100.5326421298927
+                  },
+                  "southwest": {
+                      "lat": 13.80968807010728,
+                      "lng": 100.5299424701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "518b0caf649263329897198c6bef34d120665ca5",
+          "name": "Rotdet Tao Pun",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 640,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/101630529205289786035/photos\">A Google User</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAiNMWU2re_AYggnJ78JbXvIi9TnOhbVIda-nmWiEzz-SRS99ykUPB-1JqYbLUdO8bq3s_v_yuIqNaMvQYBYzQajJiSBu6DzpKj1PjDR8LFkvnRCPOkC8optQU9PMlw3j1EhBvAfO9zVSh2-QeV4IT6-pYGhS3VL4gRnJ9LW_L5gpBYSSIKBT5Bw",
+                  "width": 960
+              }
+          ],
+          "place_id": "ChIJ6ZD3SHac4jARePDT9WBypow",
+          "plus_code": {
+              "compound_code": "RG6J+CF Bangkok",
+              "global_code": "7P52RG6J+CF"
+          },
+          "rating": 3.9,
+          "reference": "ChIJ6ZD3SHac4jARePDT9WBypow",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 29
+      },
+      {
+          "formatted_address": "โครงการจุดพักรถ The rest area, ประชาชื่น, Wong Sawang, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8417164,
+                  "lng": 100.5329348
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.84305612989272,
+                      "lng": 100.5342747298927
+                  },
+                  "southwest": {
+                      "lat": 13.84035647010728,
+                      "lng": 100.5315750701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "1905ad0b77773a78165adece8f8672f57ec6d641",
+          "name": "ครัวคุณเหวิน",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 5312,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/116201156874592862088/photos\">Pondit PoN</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAu7Rj0ajb3_JkiVxiCY86w-I7JfsVKr03NBx16iSpjLQe64ii6TPs27Vb1FRXzvzv1Iwl1GsJlwUAetRqJkkD-okjfqNM8uiOov7PgPQbhIGRL-FeBSqeCpn9lf5WcGiTEhBpDkJEovGz2ZPumlo0RqGbGhTz9_dWvxFp_TohtzUP2eQ_Tl9sBg",
+                  "width": 2988
+              }
+          ],
+          "place_id": "ChIJJdAfM5uc4jAReHmihOtBwwc",
+          "plus_code": {
+              "compound_code": "RGRM+M5 Bangkok",
+              "global_code": "7P52RGRM+M5"
+          },
+          "rating": 3.3,
+          "reference": "ChIJJdAfM5uc4jAReHmihOtBwwc",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 6
+      },
+      {
+          "formatted_address": "67/6 Pracharat Soi 4 Pracharat rd. Bangsue District, Bangkok, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8012667,
+                  "lng": 100.5218658
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80258457989272,
+                      "lng": 100.5232194298927
+                  },
+                  "southwest": {
+                      "lat": 13.79988492010728,
+                      "lng": 100.5205197701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "7bfaca40a08b00ca82a551d9fe84f64412ea2909",
+          "name": "Jaroon-Dang",
+          "photos": [
+              {
+                  "height": 2448,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/113344202471346317150/photos\">PuayNee Ho</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAV6bBIdCjz7WKA2qUcqEOSH3p4cmHLQyC7YfOr3OQk7G8lQ2vC6Pp13dwWeloplHghagImttKJuAo4_J1UL7jV0oWi9nxqhDJgo6-ovHt-dI6lxpbW9xEwe-LfEzL80tTEhD5z3FLyCq3_LXgQ9vq1-HoGhQc9M2GBRp9wjVLTN5apAhxaAw8mQ",
+                  "width": 3264
+              }
+          ],
+          "place_id": "ChIJVzKGBfOb4jAR6w5t7Ty4AEE",
+          "plus_code": {
+              "compound_code": "RG2C+GP Bangkok",
+              "global_code": "7P52RG2C+GP"
+          },
+          "rating": 3.8,
+          "reference": "ChIJVzKGBfOb4jAR6w5t7Ty4AEE",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 17
+      },
+      {
+          "formatted_address": "433 ถนนวงศ์สว่าง (ตรงข้ามปั้มซัสโก้, Bang Sue, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8229872,
+                  "lng": 100.5224515
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.82432337989272,
+                      "lng": 100.5238141298927
+                  },
+                  "southwest": {
+                      "lat": 13.82162372010728,
+                      "lng": 100.5211144701073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "bb6fecc290a1c4cad399a4beb84ef03c69778252",
+          "name": "ร้านแม่วรรณปลาเผา : คุณภาพ สด สะอาด รสชาดเกินราคา",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 1936,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/108511373296132624232/photos\">Wallop Chantrakul</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAdLUBNr46MaVJk1bjIwCmYwbctaafEZ4jPBkC4Nuo858qokWwIYnBKzNOSk-8eWlY3fYU-ud4WXjrjl2OH4Wk2ituKIjtZoH541F0UCnKYqyHZQHFGorhp06KeQG2vlwDEhDcZoT2WdZK8flCVZTkY0mUGhR4Km1qLExi5UkKaGV0vqsIBIb6Wg",
+                  "width": 2592
+              }
+          ],
+          "place_id": "ChIJbfH5tJqb4jARoLGJgtkEXQ0",
+          "plus_code": {
+              "compound_code": "RGFC+5X Bangkok",
+              "global_code": "7P52RGFC+5X"
+          },
+          "rating": 4.3,
+          "reference": "ChIJbfH5tJqb4jARoLGJgtkEXQ0",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 4
+      },
+      {
+          "formatted_address": "89/5, Soi Pracharaj 2, Bangsue, Khet Bangsue, Bangkok, 10800, 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.806523,
+                  "lng": 100.527637
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.80783167989272,
+                      "lng": 100.5289867798927
+                  },
+                  "southwest": {
+                      "lat": 13.80513202010728,
+                      "lng": 100.5262871201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "938a89701a9ee87deb06986f0fa49a4cc7f2bd2a",
+          "name": "Ning Phochana",
+          "place_id": "ChIJE86ZWYqb4jARZzMvaLBbG9A",
+          "plus_code": {
+              "compound_code": "RG4H+J3 Bangkok",
+              "global_code": "7P52RG4H+J3"
+          },
+          "rating": 0,
+          "reference": "ChIJE86ZWYqb4jARZzMvaLBbG9A",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 0
+      },
+      {
+          "formatted_address": "Thanon Pracha Rat Sai 1, Khwaeng Bang Sue, Khet Bang Sue, Krung Thep Maha Nakhon 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8146021,
+                  "lng": 100.5202216
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.81590152989272,
+                      "lng": 100.5215860798927
+                  },
+                  "southwest": {
+                      "lat": 13.81320187010728,
+                      "lng": 100.5188864201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "7f040862de2c05f9da1ff8d6695e4f7fb4a1b74b",
+          "name": "ชาบูบู๊ตึ๊ง บางซื่อพระราม7",
+          "opening_hours": {
+              "open_now": false
+          },
+          "photos": [
+              {
+                  "height": 960,
+                  "html_attributions": [
+                      "<a href=\"https://maps.google.com/maps/contrib/101994900607624535077/photos\">Gabby Gift</a>"
+                  ],
+                  "photo_reference": "CmRaAAAAqm4CETpQbWR6Cal2aXHSmKlRmM4dMrPJ-19rD3mMloPOsPCkLN5flxoCc4DKjtRsqnSQfYv2ZtnGoFZDFnQ7tNK44w0AbN9qanmF_HFZd66ZAA4KcTtKis2zapvZmxhmEhB_nXWRJSqSHtvzoAPLuC9eGhRd7mfrxh51m_glUcZJZXpTrMknFg",
+                  "width": 960
+              }
+          ],
+          "place_id": "ChIJc75pbp6b4jARZAPS5h25sdU",
+          "plus_code": {
+              "compound_code": "RG7C+R3 Bangkok",
+              "global_code": "7P52RG7C+R3"
+          },
+          "rating": 4.1,
+          "reference": "ChIJc75pbp6b4jARZAPS5h25sdU",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 57
+      },
+      {
+          "formatted_address": "1128/10 ถนน ประชาราษฏร์ สาย1, บางซื่อ, Bangkok 10800, Thailand",
+          "geometry": {
+              "location": {
+                  "lat": 13.8142152,
+                  "lng": 100.518678
+              },
+              "viewport": {
+                  "northeast": {
+                      "lat": 13.81549472989272,
+                      "lng": 100.5200496798927
+                  },
+                  "southwest": {
+                      "lat": 13.81279507010728,
+                      "lng": 100.5173500201073
+                  }
+              }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+          "id": "eda48d4f977af7a455eca1eea383759510460e2d",
+          "name": "อ้วนเลือดหมูใบยา&ส้มตำป้านาง สาขาโยธินบูรณะ",
+          "opening_hours": {
+              "open_now": false
+          },
+          "place_id": "ChIJ-e_y44-b4jAReK9B_a2vqz4",
+          "plus_code": {
+              "compound_code": "RG79+MF Bangkok",
+              "global_code": "7P52RG79+MF"
+          },
+          "rating": 5,
+          "reference": "ChIJ-e_y44-b4jAReK9B_a2vqz4",
+          "types": [
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+          ],
+          "user_ratings_total": 2
+      }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,1 @@
+cd react-portfolio && npm install && cd .. && cd Nodejs && npm install && npm start

@@ -1,0 +1,35 @@
+version: '3.5'
+
+services:
+  api:
+    container_name: scg
+    image: scg
+    build:
+      context: .
+      dockerfile: ./docker/development/Dockerfile
+    restart: always
+    volumes:
+      - '.:/src'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    env_file:
+      - ./envs/development.env
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+  
+  mongodb:
+    image: mongo:latest
+    container_name: "mongodb_test_app"
+    restart: always
+    # environment:
+    #   - MONGO_DATA_DIR=/data/db
+    #   - MONGO_LOG_DIR=/dev/null
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017:27017
