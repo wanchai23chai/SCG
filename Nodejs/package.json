@@ -9,6 +9,9 @@
     "start": "node server.js",
     "prd": "pm2 start server.js"
   },
+  "engines": {
+    "node": "8.11.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wanchai23chai/baseStructureNodejs.git"
