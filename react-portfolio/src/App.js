@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import './css/bootstrap/bootstrap.css'
 import { Route } from 'react-router-dom'
 import {MainPage} from './pages/main'
-import {Landing} from './section/landingpage'
-import {Footer} from './section/footer'
-import {About} from './section/aboutme';
-import {Header} from './section/header';
-import {Skill} from './section/skill'
+import {Landing} from './components/landingpage'
+import {Footer} from './components/footer'
+import {About} from './components/aboutme';
+import {Header} from './components/header';
+import {Skill} from './components/skill'
 import {QuestionPage} from './pages/question'
-import { Experience} from './section/experience'
+import { Experience} from './components/experience'
 class App extends Component {
   render() {
     return (

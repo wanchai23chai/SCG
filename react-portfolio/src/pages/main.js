@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {About} from '../section/aboutme';
-import {Landing} from '../section/landingpage'
-import { Experience} from '../section/experience'
-import {Skill} from '../section/skill'
+import {About} from '../components/aboutme';
+import {Landing} from '../components/landingpage'
+import { Experience} from '../components/experience'
+import {Skill} from '../components/skill'
 import '../css/App.css'
 export class MainPage extends Component {
   render() {

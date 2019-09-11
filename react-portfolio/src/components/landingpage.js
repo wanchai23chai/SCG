@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/landing.css'
-import chaiPic from '../img/me/chai01.png'
+import {images} from '../utils/image'
 export class Landing extends Component {
   render() {
     return(
@@ -20,7 +20,7 @@ export class Landing extends Component {
                   </div>                
                   </div>                 
                   <div className="col-lg-6 col-md-6 col-sm-6 align-self-end">
-                    <img className="img-fluid" src={chaiPic} alt="chai" />
+                    <img className="img-fluid" src={images.chai01} alt="chai" />
                   </div>
                 </div>					
               </div>           

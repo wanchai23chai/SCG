@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/experience.css'
-import {Timeline} from '../components/timeline'
+import {Timeline} from './timeline'
 export class Experience extends Component {
   state = {
     data: require('../data/experience.json')

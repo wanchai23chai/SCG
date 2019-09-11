@@ -17,5 +17,6 @@ export async function nearBy(req, res, next) {
   } = req.query
   const placeApi = new MapAPI()
   const nearBy = await placeApi.getNearby(radius, placeType, placeSearch)
+  res.setHeader('Access-Control-Allow-Origin', '*');
   return res.json(nearBy.data)
 }

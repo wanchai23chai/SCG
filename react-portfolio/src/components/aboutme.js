@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import chai from '../img/banner-chai.png'
+import {images} from '../utils/image'
 import '../css/aboutMe.css'
 
 export class About extends Component {
@@ -12,7 +12,7 @@ export class About extends Component {
           </div>
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6 col-md-6 col-sm-6 about-me-left">
-              <img className="img-fluid" src={chai} alt="chai" />
+              <img className="img-fluid" src={images.chai02} alt="chai" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6  about-me-right">
               

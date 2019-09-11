@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {XYZQuestion} from '../section/xyz_question'
-import {MapQuestion} from '../section/map_question'
+import {XYZQuestion} from '../components/xyz_question'
+import {MapQuestion} from '../components/map_question'
 export class QuestionPage extends Component {
   render() {
     return(

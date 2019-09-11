@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {images} from '../utils/image'
+import {icon} from '../utils/image'
 import _ from 'lodash'
 export class Skill extends Component {  
   state = {
@@ -28,7 +28,7 @@ export class Skill extends Component {
            return <div className="col-sm-12 col-md-6 col-xd-6 p-3" >
             <div style={{display: "flex",flexWrap: "wrap"}}>
                 <div className="col-2 p-0">
-              <img className="img-responsive" src={images[item.skill]?images[item.skill]:images['empty']} alt={item.skill} width="100%" height="100%"/>
+              <img className="img-responsive" src={icon[item.skill]?icon[item.skill]:icon['empty']} alt={item.skill} width="100%" height="100%"/>
             </div>
             <div className="col-10 p-2" style={{alignSelf: "center"}}>
               <div className="progress">

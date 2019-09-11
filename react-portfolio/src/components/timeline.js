@@ -24,11 +24,7 @@ export class Timeline extends Component {
                       <h3>{item.position}</h3>
                       <h5>{item.time}</h5>
                       <p dangerouslySetInnerHTML={this.renderHTML(item.description)}></p>
-                    </div>
-                    <div className="timeline-footer">
-                      
-                    
-                    </div>
+                    </div>                  
                   </div>
               </li>
            )

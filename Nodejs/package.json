@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon -r babel-register server.js",
     "test": "standard && jest --verbose",
-    "start": "node -r babel-register server.js",
+    "start": "node server.js",
     "prd": "pm2 start server.js"
   },
   "repository": {
