@@ -6,7 +6,7 @@ export class MapQuestion extends Component {
     super(props);    
     this.state = {
       MapData : {results:[]},
-      input:'Bang Sue'
+      input:'บางซื่อ'
     }
     this.requestData(this.state.input)
   }

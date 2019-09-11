@@ -19,7 +19,7 @@ export class Skill extends Component {
  
   render() {
     return(
-      <div className="container" id="skills">
+      <div className="container  col-10" id="skills">
         <div style={{textAlign:"center"}}>
             <h1 className="title-section">Skills</h1>
         </div>

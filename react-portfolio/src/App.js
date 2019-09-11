@@ -14,16 +14,15 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <div style={{margin:'15vh 0', height:'100%'}}>
+        <div style={{marginTop:'15vh', height:'100%',marginBottom:'10vh'}}>
           <Route exact path="/" component={MainPage} />
           <Route path="/it-me" component={Landing} />
           <Route path="/about-me" component={About} />
           <Route path="/experience" component={Experience} />
           <Route path="/skills" component={Skill} />
-          <Route path="/question" component={QuestionPage} />
-        
+          <Route path="/question" component={QuestionPage} />        
         </div>
-         <Footer/>
+        <Footer/>
       </div>
 
     );
