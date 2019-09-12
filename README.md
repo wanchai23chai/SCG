@@ -10,7 +10,7 @@ This project is web application that contain resume and assignment.
 ## How to delploy backend application on cloud
  1. open cmd/terminal of root project
  2. run bash file as ```bash deployApp.sh```
- 3. go to ```http://localhost```
+ 3. go to ```http://api.wcsoft.xyz or https://floating-waters-42919.herokuapp.com/```
 
 ## How to delploy web application on cloud
  1. open cmd/terminal of root project
