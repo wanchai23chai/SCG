@@ -5,7 +5,8 @@ export class XYZQuestion extends Component {
     this.state = {
       ans : [],
       key:{},
-      input:this.props.input
+      input:this.props.input,
+      output:[]
     }
   }
   componentWillMount(){
@@ -13,7 +14,6 @@ export class XYZQuestion extends Component {
     this.templete()
   }
   onChange(event){
-    console.log(this.state)
     this.setState({input:event.target.value})
     this.findAns()
     this.templete()
@@ -21,24 +21,20 @@ export class XYZQuestion extends Component {
   findAns(){
     let value = {}  
     let listOfQuestion = this.state.input.replace(new RegExp(' ', 'g'), '').split(',')  
-    listOfQuestion.forEach((num, index) => {
+    let ans = listOfQuestion.map((num, index) => {
       let term = Math.pow(index+1,2)-(index+1)+3
       if(!parseInt(num,10)){
         value[num] = term
       }
       return term
     })
-    this.setState({ans:listOfQuestion,key:value})
+    this.setState({ans:ans,key:value})
   }
   templete(){
     let renderAns = Object.keys(this.state.key).map((obj, i) => {
-        return (
-            <div>
-                {obj} is: {this.state.key[obj]}
-            </div>
-        )
+        return (<div key={i}>{obj} is: {this.state.key[obj]}</div>)
     })
-    this.setState({ans:renderAns})
+    this.setState({output:renderAns})
   }
   componentDidMount(){
     this.templete()
@@ -51,7 +47,8 @@ export class XYZQuestion extends Component {
         <label htmlFor="input">Question 1 : {this.props.question}</label>
         <input type="text" className="form-control" id="input" onChange={this.onChange.bind(this)} placeholder={this.state.input}/>
         <label htmlFor="output"> </label>
-        <p>Answer : <br/>{this.state.ans}</p>
+        <p>Answer : {this.state.input} ==> {this.state.ans.join(', ')}</p>
+        {this.state.output}
       </div>
     </div>
     

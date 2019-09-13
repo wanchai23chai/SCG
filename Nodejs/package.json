@@ -4,7 +4,7 @@
   "description": "This is base structure for nodejs",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon -r babel-register server.js",
+    "dev": "nodemon server.js",
     "test": "standard && jest --verbose",
     "start": "node server.js",
     "prd": "pm2 start server.js"

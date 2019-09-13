@@ -54,7 +54,7 @@ export class MapQuestion extends Component {
     
   }
   renderCard(data){
-    return <div className="card" style={{width: '18rem',maxWidth:'100%'}} id={data.id}>
+    return <div className="card" style={{width: '18rem',maxWidth:'100%'}} key={data.id}>
         <img src={this.urlPicture(data)} className="card-img-top" alt={data.name} />
         <div className="card-body">
           <h5 className="card-title">{data.name}</h5>
@@ -72,15 +72,14 @@ export class MapQuestion extends Component {
           Area :<input type="text" className="form-control" onChange={this.handleChange.bind(this)}/>
       </div>
       <div className="col-2" style={{alignSelf: "flex-end"}}>
-        <button  type="button" class="btn btn-primary" onClick={this.onChange.bind(this)}>Search</button>     
+        <button  type="button" className="btn btn-primary" onClick={this.onChange.bind(this)}>Search</button>     
       </div>         
     </div>    
     <div className="row">
-      {this.state.MapData.results.map((item)=>{
-        return <div className="col-sm-4 col-md-3 p-3">{this.renderCard(item)}</div>
+      {this.state.MapData.results.map((item,index)=>{
+        return <div className="col-sm-4 col-md-3 p-3" key={index}>{this.renderCard(item)}</div>
       })}
     </div>    
-    
     </div>
     
     )

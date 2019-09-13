@@ -7,7 +7,7 @@ export class About extends Component {
     return(
       <section id="about-me">
         <div className="container">
-          <div style={{    textAlign: "center"}}>
+          <div className="page-header">
                 <h2 className="title-section">About Myself</h2>
           </div>
           <div className="row align-items-center justify-content-between">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/main.css'
 export class Footer extends Component {
 
   render() {
@@ -25,7 +26,7 @@ export class Footer extends Component {
           </div>
         </div>
         <div style={{textAlign:'center',paddingBottom:'10px'}}>
-          <a href="/">© 2019 Copyright: Wanchai</a>
+          <a href="/" className="copy-right" >© 2019 Copyright: Wanchai</a>
         </div>
       </div>
       

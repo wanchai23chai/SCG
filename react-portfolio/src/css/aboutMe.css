@@ -22,7 +22,11 @@
  
 
 }
-
+.page-header {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 /* Small Devices, Tablets */
 @media only screen and (min-width : 760px) {
   .section-title {

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
+.page-header {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .img-responsive {
   max-width: 100%;
 }
@@ -300,6 +306,7 @@
   .timeline>li.timeline-inverted>.timeline-badge {
     left: 28px;
   }
+
   .timeline-body h3 {
     font-size: 2em
   }

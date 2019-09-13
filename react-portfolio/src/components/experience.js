@@ -8,7 +8,7 @@ export class Experience extends Component {
   render() {
     return(
       <div className="container" id="experience">
-        <div className="page-header text-center">
+        <div className="page-header">
           <h1 className="title-section">My Experience</h1>
         </div>
         <Timeline itemsList={this.state.data}/>
