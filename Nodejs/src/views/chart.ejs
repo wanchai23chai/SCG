@@ -48,7 +48,7 @@ series.simplifiedProcessing = true;
 series.tooltipText = "Open:{openValueY.value}\nLow:{lowValueY.value}\nHigh:{highValueY.value}\nClose:{valueY.value}";
 
 chart.cursor = new am4charts.XYCursor();
-
+chart.cursor.behavior = "none"
 // a separate series for scrollbar
 var lineSeries = chart.series.push(new am4charts.LineSeries());
 lineSeries.dataFields.dateX = "date";

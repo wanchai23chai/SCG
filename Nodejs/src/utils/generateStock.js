@@ -22,7 +22,7 @@ export async function renderStock(data,metaData) {
   })
   const page = await browser.newPage()
   await page.setContent(html)
-
+  await page.waitFor(1500)
   let img = await page.screenshot({
     path: path.join(__dirname, `../public/${metaData.fileName}.png`)
   })
