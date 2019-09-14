@@ -38,10 +38,12 @@ export async function webHook(req, res, next) {
         ric:ric
       }
       const dataResponse = await renderStock(data,metaData)    
+      console.log('render html complte')
+      console.log(req.headers)
       reply.push({
         "type": "image",
-        "originalContentUrl": dataResponse.stockPicture,
-        "previewImageUrl": dataResponse.previewPicture
+        "originalContentUrl": `https://${req.host}${dataResponse.stockPicture}`,
+        "previewImageUrl": `https://${req.host}${dataResponse.previewPicture}`
     })
     }else{
       reply.push({

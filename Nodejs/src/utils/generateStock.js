@@ -27,8 +27,8 @@ export async function renderStock(data,metaData) {
   })
   await browser.close()
   return {
-    stockPicture:`https://${os.hostname()}:${process.env.PORT}/stock/${metaData.fileName}.png`,
-    previewPicture:`https://${os.hostname()}:${process.env.PORT}/stock/preview.png`,
-    url:`https://${os.hostname()}:${process.env.PORT}/stock/${metaData.fileName}.html`
+    stockPicture:`/stock/${metaData.fileName}.png`,
+    previewPicture:`/stock/preview.png`,
+    url:`/stock/${metaData.fileName}.html`
   }
 }
