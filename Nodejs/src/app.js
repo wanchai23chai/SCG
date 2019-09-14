@@ -12,7 +12,7 @@ app.use((req,res,next)=>{
 })
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/api', router)
-app.use('/stock',express.static(path.join(__dirname,'./views')));
+app.use('/stock',express.static(path.join(__dirname,'./public')));
 app.use('/check',(req,res,next)=>{
   res.json({'message':'service online',env:process.env,headers:req.headers})
 })

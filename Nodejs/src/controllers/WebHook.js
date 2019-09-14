@@ -2,6 +2,7 @@ var yahooFinance = require('yahoo-finance');
 const { LineClient } = require('messaging-api-line');
 const moment = require('moment')
 const {renderStock} = require('../utils/generateStock')
+const lineTemplete = require('../utils/lineTemplete')
 const client = LineClient.connect({
   accessToken: "dvlpTcWSGHzWFYiFksbEAuvXCGQ52GcYcR9D0EzF4gccMLBMITIb1crqsoL1XLXBywZoPiMo3jW1SqebhWKnoQt2vhOzkB5uuaRP2s2ODPARVkRWVvE3TcIil09Q4UsqXCoK9635wvp9DsZ2zX1Ir49PbdgDzCFqoOLOYbqAITQ=",
   channelSecret: process.env.CHANNEL_SECRET,
@@ -14,12 +15,16 @@ export async function webHook(req, res, next) {
     const endDate = moment().format("YYYY-MM-DD")    
     const ric = message.text.toUpperCase()
     const fileName = `${ric}_${startDate}_to_${endDate}`
-    const apiData = {
+    let apiData = {
       symbol: ric,
       from: startDate,
       to: endDate,
     }
     let data = await yahooFinance.historical(apiData);
+    let sumMaxMin = {
+      min:[],
+      max:[]
+    }
     data = data.filter(data=>{
       if(data.open){
         return data
@@ -27,11 +32,13 @@ export async function webHook(req, res, next) {
       delete item['volume']
       delete item['adjClose']
       delete item['symbol']
+      sumMaxMin.max.push(item['high'])
+      sumMaxMin.min.push(item['low'])
       item.avg = (item['low']+item['high'])/2
       return item
     })
     if(data.length>0){
-      const metaData  = {
+      let metaData  = {
         startDate : startDate,
         endDate:endDate,
         fileName:fileName,
@@ -40,11 +47,13 @@ export async function webHook(req, res, next) {
       const dataResponse = await renderStock(data,metaData)    
       console.log('render html complte')
       console.log(req.headers)
+      metaData.sum = sumMaxMin
+      metaData.url = `https://${req.host}${dataResponse.url}`
       reply.push({
         "type": "image",
         "originalContentUrl": `https://${req.host}${dataResponse.stockPicture}`,
         "previewImageUrl": `https://${req.host}${dataResponse.previewPicture}`
-    })
+    },lineTemplete.displayMaxMin(metaData))
     }else{
       reply.push({
         type: 'text',
