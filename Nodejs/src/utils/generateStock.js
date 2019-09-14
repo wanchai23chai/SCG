@@ -10,10 +10,14 @@ export async function renderStock(data,metaData) {
   })
   fs.writeFile(path.join(__dirname, `../views/${metaData.fileName}.html`), html, "utf8", (err) => {
     if (err) throw err;
-    console.log('Saved! file');
+    console.log('Saved! file :'+metaData.fileName);
   });
   const browser = await puppeteer.launch({
     ignoreHTTPSErrors: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+    ]
   })
   const page = await browser.newPage()
   await page.setContent(html)

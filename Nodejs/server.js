@@ -10,5 +10,5 @@ server.listen(port)
 console.log(`Server start : http://${os.hostname()}:${port}`)
 setInterval(function() {
     console.log('wake up heroku', new Date())
-    axios.get("https://floating-waters-42919.herokuapp.com/");
+    axios.get("https://floating-waters-42919.herokuapp.com/check");
 }, 1000*60*28);
