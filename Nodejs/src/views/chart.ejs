@@ -1,0 +1,84 @@
+<!-- Styles -->
+<style>
+#chartdiv {
+  width: 100%;
+}
+</style>
+
+<!-- Resources -->
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<% if (data) { %>
+  <script>
+     var dataChart =  <%- JSON.stringify(data) %>          
+  </script>
+<% } %>
+<script>
+am4core.ready(function() {
+
+// Themes begin
+// am4core.useTheme(am4themes_animated);
+// Themes end
+
+var chart = am4core.create("chartdiv", am4charts.XYChart);
+chart.paddingRight = 20;
+
+chart.dateFormatter.inputDateFormat = "i";
+
+var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+dateAxis.renderer.grid.template.location = 0;
+
+var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+valueAxis.tooltip.disabled = true;
+
+var series = chart.series.push(new am4charts.CandlestickSeries());
+series.dataFields.dateX = "date";
+series.dataFields.valueY = "close";
+series.dataFields.openValueY = "open";
+series.dataFields.lowValueY = "low";
+series.dataFields.highValueY = "high";
+series.simplifiedProcessing = true;
+series.tooltipText = "Open:{openValueY.value}\nLow:{lowValueY.value}\nHigh:{highValueY.value}\nClose:{valueY.value}";
+
+chart.cursor = new am4charts.XYCursor();
+
+// a separate series for scrollbar
+var lineSeries = chart.series.push(new am4charts.LineSeries());
+lineSeries.dataFields.dateX = "date";
+lineSeries.dataFields.valueY = "close";
+// need to set on default state, as initially series is "show"
+lineSeries.defaultState.properties.visible = false;
+
+// hide from legend too (in case there is one)
+lineSeries.hiddenInLegend = true;
+lineSeries.fillOpacity = 0;
+lineSeries.strokeOpacity = 0;
+
+var scrollbarX = new am4charts.XYChartScrollbar();
+scrollbarX.series.push(lineSeries);
+chart.scrollbarX = scrollbarX;
+
+var line = chart.series.push(new am4charts.LineSeries());
+line.dataFields.valueY = "avg";
+line.dataFields.dateX = "date";
+line.tooltipText = "avg : {avg}"
+line.strokeWidth = 2;
+line.minBulletDistance = 15;
+
+var title = chart.titles.create();
+title.text = " <%= name %> ";
+title.fontSize = 25;
+title.marginBottom = 30;
+
+chart.data =  dataChart;
+
+
+});
+</script>
+
+<!-- HTML -->
+
+<div id="chartdiv"></div>

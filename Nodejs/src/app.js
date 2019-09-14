@@ -12,13 +12,11 @@ app.use((req,res,next)=>{
 })
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use('/api', router)
-app.use('/',(req,res,next)=>{
+app.use('/stock',express.static(path.join(__dirname,'./views')));
+app.use('/check',(req,res,next)=>{
   res.json({'message':'service online'})
 })
-// app.use(express.static(path.join('../react-portfolio', 'build')));
-// app.get('/', function(req, res) {
-//   res.sendFile(path.join('../react-portfolio', 'build', 'index.html'));
-// });
+
 
 
 module.exports = app
