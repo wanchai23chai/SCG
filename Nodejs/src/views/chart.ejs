@@ -10,17 +10,17 @@
 
 <!-- Resources -->
 <script>
-  < % -include('./core.js'); % >
+  <%- include('./core.js'); %>
 </script>
 <script>
-  < % -include('./charts.js'); % >
+  <%- include('./charts.js'); %>
 </script>
 
 
 <!-- Chart code -->
 <% if (data) { %>
 <script>
-  var dataChart = < % -JSON.stringify(data) % >
+  var dataChart = <%- JSON.stringify(data) %>
 </script>
 <% } %>
 <script>
