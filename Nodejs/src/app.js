@@ -2,8 +2,6 @@ import express from 'express'
 import router from './routes/routes'
 import bodyParser from 'body-parser' 
 import path from 'path'
-import dotenv from 'dotenv'
-dotenv.config({path: './envs/dev/.env'})
 const app = express()
 app.use(bodyParser.json())
 app.use((req,res,next)=>{
