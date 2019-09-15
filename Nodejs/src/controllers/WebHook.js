@@ -3,10 +3,17 @@ const { LineClient } = require('messaging-api-line');
 const moment = require('moment')
 const {renderStock} = require('../utils/generateStock')
 const lineTemplete = require('../utils/lineTemplete')
-const client = LineClient.connect({
-  accessToken: "dvlpTcWSGHzWFYiFksbEAuvXCGQ52GcYcR9D0EzF4gccMLBMITIb1crqsoL1XLXBywZoPiMo3jW1SqebhWKnoQt2vhOzkB5uuaRP2s2ODPARVkRWVvE3TcIil09Q4UsqXCoK9635wvp9DsZ2zX1Ir49PbdgDzCFqoOLOYbqAITQ=",
-  channelSecret: process.env.CHANNEL_SECRET,
-});
+const accessToken = require('../utils/accessToken')
+let client = null
+accessToken.lineAPI().then(data=>{
+  client = LineClient.connect({
+    accessToken: data.data['access_token'],
+    channelSecret: process.env.LINE_CLIENT_SECRET,
+    })
+}).catch(err=>{
+  console.log(err)
+})
+
 export async function webHook(req, res, next) {
   const { replyToken,message } = req.body.events[0]  
   let reply = []  
