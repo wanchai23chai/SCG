@@ -17,5 +17,6 @@ export const icon = {
 
 export const images = {
   "chai01":require('../img/me/chai02.png'),
-  "chai02":require('../img/me/banner-chai.png')
+  "chai02":require('../img/me/banner-chai.png'),
+  "jingxi":require('../img/brand/china.jpg')
 }
